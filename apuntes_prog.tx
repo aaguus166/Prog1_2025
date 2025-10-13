@@ -1,0 +1,30 @@
+Explicacion del .forEach
+El forEach es una forma de recorrer (leer uno por uno) los elementos de un array (lista).
+Sirve para hacer algo con cada elemento del array. Ejemplo:
+let frutas = ["manzana", "banana", "pera"];
+frutas.forEach((fruta) => {
+  console.log(fruta);
+});
+
+Toma el primer elemento: "manzana" → lo muestra
+Luego "banana" → lo muestra
+Luego "pera" → lo muestra
+
+Dferencias entre .forEach y for comun
+for comun:
+let frutas = ["manzana", "banana", "pera"];
+
+for (let i = 0; i < frutas.length; i++) {
+  console.log(frutas[i]);
+}
+*i empieza en 0
+*Va sumando 1 hasta llegar al final del array
+*Vos decidís cuándo empieza, cuándo termina y cómo avanza
+
+forEach:
+*forEach agarra cada elemento automáticamente.
+*Te da el valor y el índice (si lo querés usar).
+*No necesitás manejar la condición ni el incremento.
+
+¿Que es 
+
