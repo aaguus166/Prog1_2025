@@ -12,4 +12,4 @@ plazo: 30, // en dias
 }],
 }
 
-console.log(`la cuenta tiene un plazo fijo ${cuenta.plazoFijo[0].estado}`);
+console.log(`la cuenta tiene un plazo fijo ${cuenta.plazoFijo[0].estado}`); 
